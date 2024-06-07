@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adixya - Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Aditya Singh"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Aditya Singh">Aditya Singh</h1>
+
+            <p class="title">UI/UX Designer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a
+                  href="mailto:asadityasinghb303@gmail.com"
+                  class="contact-link"
+                  >asadityasinghb303@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+919773124197" class="contact-link"
+                  >+91 9773124197</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2004-03-25">March 25, 2004</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Surat, Gujarat, India</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/aditya-singh-863564241/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/_color.and.creative_/"
+                class="social-link"
+              >
+                <ion-icon name="color-palette-outline"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/aditya_singh__2004/"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>Home</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #HOME
+      -->
+
+        <article class="home active" data-page="home">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="home-text">
+            <p>
+              I'm Creative UI/UX Designer from Gujarat, India, working in web
+              development and ui/ux designing. I enjoy turning complex problems
+              into simple, beautiful and intuitive designs.
+            </p>
+
+            <p>
+              My job is to build your website so that it is functional and
+              user-friendly but at the same time attractive. Moreover, I add
+              personal touch to your product and make sure that is eye-catching
+              and easy to use. My aim is to bring across your message and
+              identity in the most creative way.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">My Expertise</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">UI/UX design</h4>
+
+                  <p class="service-item-text">
+                    The most modern and high-quality design made at a
+                    professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Sofware Development</h4>
+
+                  <p class="service-item-text">
+                    Professional development of software.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-photo.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Graphic Design</h4>
+
+                  <p class="service-item-text">
+                    I make high-quality graphic posts of any category at a
+                    professional level.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-1.png"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Dhiren Shah
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Aditya was hired to create a corporate identity. We were
+                      very pleased with the work done. He has a lot of
+                      experience and is very concerned home the needs of client.
+                      Aditya is a visionary in UI/UX design. Their attention to
+                      detail and understanding of user needs resulted in a
+                      seamless and engaging user experience.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-2.png"
+                      alt="Jessica miller"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Ruchi Bhattacharjee
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Aditya is an outstanding web developer who delivered our
+                      project on time and exceeded our expectations. He
+                      expertise in both front-end and back-end development
+                      ensured a smooth and efficient website launch. We couldn’t
+                      be happier with the result.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-3.png"
+                      alt="Emily evans"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Shivangi Narula
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Aditya demonstrated exceptional technical proficiency and
+                      dedication throughout our software development project.
+                      His innovative solutions and attention to detail resulted
+                      in a product that surpassed our expectations. Highly
+                      recommend!
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-4.png"
+                      alt="Henry william"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Kishore Reddy
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      The quality of work that Aditya produces is simply
+                      outstanding. His graphic designs have elevated our
+                      marketing materials to a new level, making our brand stand
+                      out in a crowded market. We’re thrilled with the results
+                      and will definitely continue working with them.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Dhiren</h4>
+
+                <time datetime="2021-06-14">05 May, 2024</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned home the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+          <!-- <section class="clients">
+            <h3 class="h3 clients-title">Clients</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-1-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-2-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-3-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-4-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-5-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-6-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section> -->
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Vellore Institute of Technology, Bhopal
+                </h4>
+
+                <span>2021 — 2025</span>
+
+                <p class="timeline-text">
+                  Bachelor of Technology in Computer Science & Engineering
+                </p>
+                <p class="timeline-text">Current CGPA : 8.23 / 10</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  SBR Maheshwari Vidyapeeth
+                </h4>
+
+                <span>June 2021</span>
+
+                <p class="timeline-text">Senior Scondary (Science Branch)</p>
+                <p class="timeline-text">Percentage : 86.8 %</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  SBR Maheshwari Vidyapeeth
+                </h4>
+
+                <span>May 2019</span>
+
+                <p class="timeline-text">Scondary School</p>
+                <p></p>
+                <p class="timeline-text">Percentage : 88.4 %</p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  UI/UX Designer | Chef Connect
+                </h4>
+
+                <span>June 2024 - Ongoing</span>
+
+                <p class="timeline-text">
+                  Developing an Intuitive Platform: Spearheaded the design and
+                  user experience development of ChefConnect’s innovative
+                  platform, facilitating the connection between top-tier chefs
+                  and clients for various events. This led to an efficient and
+                  enjoyable booking experience, significantly enhancing the
+                  business processes for hotels, restaurants, and high-profile
+                  clients.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  UI/UX Designer | Skilldify
+                </h4>
+
+                <span>Nov 2023 - Feb 2024</span>
+
+                <p class="timeline-text">
+                  Developed a SaaS Product: Led the design and user experience
+                  development of an innovative SaaS product from concept to
+                  launch. Utilized tools such as Figma and Adobe XD to create
+                  intuitive and visually appealing interfaces. Collaborated with
+                  development teams using React, Python, AWS, and Flask to
+                  ensure seamless integration and user-friendly interactions,
+                  resulting in streamlined business processes for clients.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Graphic Designer | GetMyUni
+                </h4>
+
+                <span>Jan 2023 - Apr 2023</span>
+
+                <p class="timeline-text">
+                  Created informative and visually appealing marketing
+                  materials, including email templates, flyers, and social media
+                  graphics, which helped increase user engagement by 25%.
+                </p>
+              </li>
+
+              <!-- <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Campus Ambassador | AlmaBetter
+                </h4>
+
+                <span>Jan 2023 — Apr 2023</span>
+
+                <p class="timeline-text">
+                  Managed social media campaigns and created engaging content to
+                  enhance AlmaBetter’s online presence, resulting in a
+                  significant boost in followers and interactions.
+                </p>
+              </li> -->
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Freelance | 30+ Clients</h4>
+
+                <span>Apr 2021 - Present</span>
+
+                <p class="timeline-text">
+                  Worked closely with clients to understand their brand,
+                  objectives, and target audience, delivering customized design
+                  solutions that align with their vision and goals.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Figma</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Adobe Xd</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">HTML 5</h5>
+                  <data value="98">98%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 98%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Cascade Style (css)</h5>
+                  <data value="93">93%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 93%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">JavaScript (JS)</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">React.js</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>UI/UX Design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Graphic Design</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>UI/UX Design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Graphic Design</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ui/ux design"
+              >
+                <a
+                  href="https://www.figma.com/proto/ukgJxbfgUcOtHyQxhg57dR/Skilldify-Admin?page-id=0%3A1&node-id=642-5595&starting-point-node-id=541%3A1346&t=Z6mpOXVJ56536BGO-1"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/SaaS-Dashboard.png"
+                      alt="Skilldify"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Skilldify</h3>
+
+                  <p class="project-category">UI/UX Design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ui/ux design"
+              >
+                <a
+                  href="https://www.figma.com/proto/5CyI6wvSpCFAdGkF6y8JFR/Hotel-California?page-id=0%3A1&node-id=101-206&viewport=489%2C394%2C0.07&t=x0anaht9PDTiEVY4-1&scaling=min-zoom&starting-point-node-id=101%3A206&show-proto-sidebar=1"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Hotel-California.png"
+                      alt="Hotel-California"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Hotel California</h3>
+
+                  <p class="project-category">UI/UX Design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ui/ux design"
+              >
+                <a
+                  href="https://www.figma.com/proto/SvjrfVKBtXMEoU0nO8rizz/3D-Carousel-Slider?page-id=0%3A1&type=design&node-id=1-22&viewport=644%2C83%2C0.11&t=cK3fdNh33jlWNXxW-1&scaling=scale-down&starting-point-node-id=1%3A22"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Fruity.png"
+                      alt="Fruity"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Fruity</h3>
+
+                  <p class="project-category">UI/UX Design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ui/ux design"
+              >
+                <a
+                  href="https://www.figma.com/proto/J3AuTcU2b87jFPHYwurLSR/Untitled?page-id=0%3A1&node-id=169-3&viewport=-2265%2C495%2C0.5&t=Au919amwn8NtGcdM-1&scaling=min-zoom&starting-point-node-id=169%3A3"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Nebulla-Net.png"
+                      alt="Nebulla-Net"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Nebulla Net</h3>
+
+                  <p class="project-category">UI/UX Design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ui/ux design"
+              >
+                <a
+                  href="https://www.figma.com/proto/KtefMC4GHgBEcor9cCjnHS/Sample-Project-1---FickleFlight-(Uses-Material-components)-(Copy)?page-id=741%3A197192&node-id=1003-22493&viewport=-518%2C1441%2C0.17&t=GOAV1cpQrdFlB6kM-1&scaling=min-zoom&starting-point-node-id=1003%3A25134"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Fickle-Flight.png"
+                      alt="FickleFlight"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Fickle Flight</h3>
+
+                  <p class="project-category">UI/UX Design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ui/ux design"
+              >
+                <a
+                  href="https://www.figma.com/proto/98LowHKm1cwieh90x3YImf/ZINKLY?page-id=0%3A1&node-id=1-2&viewport=622%2C340%2C0.44&t=xEAtZvmZlH9JA2Vk-1&scaling=min-zoom"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Zinkly.png"
+                      alt="Zinkly"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Zinkly</h3>
+
+                  <p class="project-category">UI/UX Design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ui/ux design"
+              >
+                <a
+                  href="https://www.figma.com/proto/j8MQITFff8gFwl4Jf3q0dz/Untitled?page-id=0%3A1&node-id=33-9&viewport=43%2C153%2C0.08&t=HhMRJtMSWhoMnExc-1&scaling=scale-down-width"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Blebee.png"
+                      alt="Blebee"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">BleBee</h3>
+
+                  <p class="project-category">UI/UX Design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ui/ux design"
+              >
+                <a
+                  href="https://www.figma.com/proto/T7UlFCDdVAQTik3sxIxxfO/Untitled?page-id=0%3A1&node-id=230-370&viewport=735%2C347%2C0.13&t=eqYzj0JBMCVsYDhQ-1&scaling=scale-down&starting-point-node-id=230%3A370&show-proto-sidebar=1"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Edufund.png"
+                      alt="Edufund"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Edufund</h3>
+
+                  <p class="project-category">UI/UX Design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ui/ux design"
+              >
+                <a
+                  href="https://www.figma.com/proto/BPc5lVp0Ydmm0OQnAsEk9n/Untitled?page-id=0%3A1&node-id=306-2053&viewport=-311%2C-696%2C0.21&t=Y4c35Tc5UKh7uyFg-1&scaling=min-zoom&starting-point-node-id=306%3A2053"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/GotoEgypt.png"
+                      alt="GotoEgypt"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Go To Egypt</h3>
+
+                  <p class="project-category">UI/UX Design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ui/ux design"
+              >
+                <a
+                  href="https://www.figma.com/proto/7BoL1x4eEaTiuvyoudV3wp/Chef-Connect?page-id=0%3A1&node-id=503-2&viewport=-75%2C325%2C0.13&t=7guGeAHR5ee9lwaJ-1&scaling=contain&starting-point-node-id=503%3A2"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/ChefConnect.png"
+                      alt="ChefConnect"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Chef Connect</h3>
+
+                  <p class="project-category">UI/UX Design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ui/ux design"
+              >
+                <a
+                  href="https://www.figma.com/proto/8AlHsB7Vceli0Jg7gIvfga/App-Store?page-id=0%3A1&node-id=729-3543&viewport=-345%2C524%2C0.1&t=Rsi43cjwoiUVDvZq-1&scaling=scale-down&starting-point-node-id=729%3A3543"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/AppStore.png"
+                      alt="AppStore"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">App Store</h3>
+
+                  <p class="project-category">UI/UX Design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ui/ux design"
+              >
+                <a
+                  href="https://www.figma.com/proto/8shAvoXjvDepTjfCiWlnI2/Color-%26-Creative?page-id=0%3A1&node-id=22-2&viewport=510%2C219%2C0.15&t=gD5o21cbjUobvoD9-1&scaling=scale-down-width&starting-point-node-id=22%3A2&show-proto-sidebar=1&content-scaling=fixed"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Nikeairmax.png"
+                      alt="Nikeairmax"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Nike Air Max</h3>
+
+                  <p class="project-category">UI/UX Design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="graphic design"
+              >
+                <a
+                  href="https://www.figma.com/proto/NUQ496tj5Xp5ncfpAIFSTP/Untitled?page-id=0%3A1&node-id=205-3&viewport=348%2C86%2C0.11&t=4CaM0sbPaU9lSRgK-1&scaling=contain"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Infographic.png"
+                      alt="Infographic"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Infographic Presentation</h3>
+
+                  <p class="project-category">Graphic Design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="graphic design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/SuperSale.png"
+                      alt="SuperSale"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Super Sale Banner</h3>
+
+                  <p class="project-category">Graphic Design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="graphic design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Templates.png"
+                      alt="Templates"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Email Templates</h3>
+
+                  <p class="project-category">Graphic Design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="graphic design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Poster.png"
+                      alt="Poster"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Food Poster</h3>
+
+                  <p class="project-category">Graphic Design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="graphic design"
+              >
+                <a
+                  href="https://www.figma.com/proto/8shAvoXjvDepTjfCiWlnI2/Color-%26-Creative?page-id=0%3A1&node-id=1-2&viewport=510%2C219%2C0.15&t=gD5o21cbjUobvoD9-1&scaling=scale-down-width&starting-point-node-id=1%3A2&content-scaling=fixed"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Post.png"
+                      alt="Post"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Social Media Posts</h3>
+
+                  <p class="project-category">Graphic Design</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a
+                  href="https://www.figma.com/proto/KuOGy7WLyRXD1qnbZ2Jy6N/Case-Study-Hotel-California?page-id=0%3A1&node-id=323-3&viewport=669%2C192%2C0.05&t=KCW8gL4UjHUcT4wR-1&scaling=min-zoom&starting-point-node-id=323%3A3"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/CaseStudy1.png"
+                      alt="Case Study for Hotel California"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">UI/UX</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">May 2, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Case Study - Hotel California
+                    </h3>
+
+                    <p class="blog-text">
+                      A place to experience and enjoy the life.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://www.canva.com/design/DAGGTEC34cs/mblNsomALTN7IfoPBrr8UQ/edit?utm_content=DAGGTEC34cs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/CaseStudy2.png"
+                      alt="3D Carousel"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">UI/UX</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">May 24, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Case Study - Fruity</h3>
+
+                    <p class="blog-text">In a spin of colors and laughter.</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <!-- <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section> -->
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
